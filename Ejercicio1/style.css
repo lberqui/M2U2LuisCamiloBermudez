@@ -1,0 +1,58 @@
+/* .container{
+padding-top: 2em;
+
+} */
+
+.nota{
+ padding-top: 0em;
+}
+
+body{
+    background-color:beige;
+    height: 10em;
+
+}
+
+
+p{
+    margin-top: 2em;
+    color:black;
+}
+
+
+.col-md-5{
+    padding-top: 1em;
+    min-width: 5em;
+    
+}
+.col-md-3{
+    padding-top: 1em;
+    min-width: 5em;
+    
+}
+
+#uno {
+    width: 40em;
+    float: left;
+    
+}
+header, footer p{
+    height: 6em;
+    background-color: darkslategrey;
+    color: white;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 205px;
+    padding-top: 4em;
+}
+
+.page-footer2 .footer-copyright {
+
+    height: 50px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08);
+  }

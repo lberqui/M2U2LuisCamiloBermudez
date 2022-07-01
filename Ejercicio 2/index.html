@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Validación de Formulario con Javascript</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<main>
+		<form action="" class="formulario" id="formulario">
+			<!-- Grupo: Usuario -->
+			<div class="formulario__grupo" id="grupo__numUno">
+				<label for="usuario" class="formulario__label">Número 1:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="numUno" id="numUno" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El valor ingresado debe sér númerico.</p>
+			</div>
+
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__numDos">
+				<label for="nombre" class="formulario__label">Número 2:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="numDos" id="numDos" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El valor ingresado debe sér númerico.</p>
+			</div>
+
+			<!-- Grupo: Contraseña -->
+			<div class="formulario__grupo" id="grupo__numTres">
+				<label for="password" class="formulario__label">Número 3:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="numTres" id="numTres">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El valor ingresado debe sér númerico.</p>
+			</div>
+
+			<div class="formulario__grupo" id="grupo__numCuatro">
+				<label for="password" class="formulario__label">Número 4:</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="numCuatro" id="numCuatro">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El valor ingresado debe sér númerico.</p>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Calcular</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Valores calculados correctamente!</p>
+			</div>
+
+		</form>
+		<div class="formulario__grupo" id="grupo__numCinco">
+			<label for="" class="formulario__label" >Número Mayor:</label>
+			<div class="formulario__grupo-input">
+				<input type="text" class="formulario__input" name="numMayor" id="mayor" readonly>
+				<i class="formulario__validacion-estado fas fa-times-circle"></i>
+			</div>
+		</div>
+
+		<div class="formulario__grupo" id="grupo__numSeis">
+			<label for="" class="formulario__label">Número Menor:</label>
+			<div class="formulario__grupo-input">
+				<input type="text" class="formulario__input" name="numMenor" id="menor"  readonly>
+			</div>
+		</div>
+		
+	</main>
+
+	<script src="js/formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
